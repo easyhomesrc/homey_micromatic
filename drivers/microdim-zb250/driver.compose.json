@@ -1,0 +1,51 @@
+{
+  "name": {
+    "en": "MicroDim ZB250"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "measure_power",
+    "meter_power"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": "Micro Matic Norge AS",
+    "productId": [
+      "SZ1000"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          6,
+          8,
+          1794,
+          2820
+        ],
+        "bindings": [
+          6,
+          8,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Reset power of the device from master breaker.\n\nIf pairing does not start after 20 seconds, reset the device by short press Reset key for 5 times continuously or reset power of the device from master breaker for 5 times continuously."
+      }
+    }
+  }
+}
