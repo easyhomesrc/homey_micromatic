@@ -1,17 +1,17 @@
 {
-  "id": "com.micromatic.myapp",
+  "id": "com.micromatic.microdim",
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
-  "brandColor": "#ED0000",
+  "brandColor": "#EE0000",
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "Micro Matic"
+    "en": "MicroDim"
   },
   "description": {
-    "en": "Offering innovative quality solutions with ease of use at all levels."
+    "en": "We make Norwegian buildings smarter."
   },
   "category": [
     "lights"
